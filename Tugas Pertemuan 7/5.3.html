@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktimum 5.3</title>
+    <style>
+        * {
+  box-sizing: border-box;
+}
+
+.header {
+  border:1px solid red;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 5px;
+  border:8px solid white;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.yellow {
+    background-color: yellow;
+    height: 100px;
+}
+.lightcoral {
+    background-color: lightcoral;
+    height: 100px;
+}
+.green {
+    background-color: lightgreen;
+    height: 600px;
+}
+.gray {
+    background-color: lightgrey;
+    height: 600px;
+}
+.blue {
+    background-color: lightskyblue;
+    height: 600px;
+}
+.violet {
+    background-color: blueviolet;
+    height: 100px;
+}
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="col-3 yellow"></div>
+        <div class="col-9 lightcoral"></div>
+    </div>
+    <div class="row">
+        <div class="col-3 green"></div>
+        <div class="col-6 gray"></div>
+        <div class="col-3 blue"></div>
+    </div>
+    <div class="row">
+        <divet;" class="col-12 violet"></div>
+    </div>
+    <div class="blue" ></div>
+</body>
+</html>
